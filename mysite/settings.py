@@ -47,10 +47,6 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS += ( 'django.contrib.sitemaps',)
 
-JENKINS_TASKS = ( 
-    'django_jenkins.tasks.with_coverage',
-    'django_jenkins.tasks.run_pylint',
-)
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
