@@ -4,3 +4,4 @@ django-summernote==0.8.11.4
 pytz==2019.3
 sqlparse==0.3.0
 django-jenkins
+coverage
